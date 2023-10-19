@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EJEMPLO 7</title>
+</head>
+<body>
+<fieldset>
+	<form>
+		<label>Correo Electrónico: </label><input type="email" name="email" placeholder="ejemplo@gmail.com" required>
+		<br><br><label>Nombre de usuario: </label><input type="text" name="nombreusuario" required>
+		<br><br><label>Contraseña</label><input type="password" name="contraseña" pattern=".{6,}" required>
+		<br><br><label>Repetir contraseña</label><input type="password" name="contraseña" pattern=".{6,}" required>
+		<br><br><select name="sexo">
+			<option value="" aria-label="sexo" disabled selected>Elige tu sexo:</option>
+			<option value="0">Hombre</option>
+			<option value="1">Mujer</option>
+			<option value="2">Otro</option>
+		</select>
+	<br><br><br><br><input type="submit" value="Registrarse">	
+	<input type="reset" value="Borrar todo">
+	</form>
+</fieldset>
+</body>
+</html>
