@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+table{
+	width: 100%;
+}
+.alinear{
+	color: black;
+	text-align: left;
+	width: 50%;
+}
+.alinearImagen{
+	margin-left: 50%;
+	width: 50%;
+	max-height: 220px;
+}
+.tamaño{
+	font-size: 12px;
+}
+h2{
+	color: salmon;
+}
