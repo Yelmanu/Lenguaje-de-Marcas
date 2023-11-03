@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.titulo{
+		font-size: 2em;
+	margin-bottom: 0,5em;
+}
+.menu{
+	text-decoration: none;
+	margin-bottom: 6em;
+}
+.menu:hover{
+	color: black;
+}
+.contenedor{
+	width: 80%;
+	max-width: 950px;
+	background-color: gray;
+	border: 2px solid red;
+	color: white;
+}
+h2{
+	color: red;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
