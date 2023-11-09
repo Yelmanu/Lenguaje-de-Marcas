@@ -1,15 +1,11 @@
 @charset "UTF-8";
 
-.titulo{
-		font-size: 2em;
-	margin-bottom: 0,5em;
+header{
+	font-size: 2em;
+	margin-bottom: 0.5em;
 }
-.menu{
-	text-decoration: none;
-	margin-bottom: 6em;
-}
-.menu:hover{
-	color: black;
+a{
+	color: royalblue;
 }
 .contenedor{
 	width: 80%;
@@ -17,8 +13,20 @@
 	background-color: gray;
 	border: 2px solid red;
 	color: white;
+	padding-bottom: 15px;
 }
 h2{
-	color: red;
+	color:red;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+	margin-left: 3em;
+	margin-bottom: 2.5em;
+}
+.menu a{
+	padding: 5px;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: black;
 }
