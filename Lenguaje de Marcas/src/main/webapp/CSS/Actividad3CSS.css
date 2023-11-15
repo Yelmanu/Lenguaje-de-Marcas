@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.cua{
+   /*cuadrado*/
+   width:100px;
+   height:100px;
+   margin:2rem;
+   background-color:blue;
+   padding: 1rem blue;
+}
+.cua2{
+   width:100px;
+   height:100px;
+   background-color: red;
+   padding: 1rem red;
+}
