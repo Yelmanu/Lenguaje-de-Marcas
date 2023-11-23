@@ -4,12 +4,13 @@
 	background-color: rgba(254,253,222,255);	
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	overflow: auto;
+	height: 250px;
+	width: 350px;
 }
 .calendario{
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	margin-top: 10px;
-	margin-left: 480px;
 	border-collapse: collapse;
 	background-color: white;
 	height: 200px;
@@ -31,9 +32,8 @@
 .calendario2{
 	text-align: center;
 	border: 1px solid black;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	margin-top: 10px;
-	margin-left: 480px;
 	height: 200px;
 	width: 280px;
 	border-collapse: collapse;
@@ -41,4 +41,31 @@
 }
 .borde{
 	border-right: 1px solid black;
+}
+.caption3{
+	font-size: 2.5rem;
+	background-color: #FFCA61;
+	color: #FAEE9A;
+}
+.calendario3{
+		text-align: center;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	height: 200px;
+	width: 280px;
+	border-collapse: collapse;
+	background-color: white;
+}
+.borde2{
+	border: 1px solid black;
+}
+.nar{
+	background-color: #FD9800;
+}
+.narsuave{
+	background-color: #FFCD5E;
+}
+.amarillo{
+	background-color: #FFFFB9;
 }
