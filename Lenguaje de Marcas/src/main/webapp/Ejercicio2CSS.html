@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ejercicio 2 CSS</title>
+<meta name="author" content="Manuel Diaz Navarro">
+<link rel="stylesheet" href="CSS/Ejercicio2CSS.css">
+</head>
+<body>
+	<form>
+		<fieldset class="gris">
+			<legend>Datos personales</legend>
+			<label for="nombre" class="nombre">Nombre: </label>
+			<label for="apellidos" class="apellido">Apellido: </label>
+			<label for="dni">DNI: </label><br>
+			<input type="text" name="nombre" id="nombre">
+			<input type="text" name="apellidos" id="apellidos">
+			<input type="text" name="dni" id="dni"><br>
+			<label for="localidad" class="localidad">Localidad de nacimiento: </label>
+			<label for="provincia" class="provincia">Provincia: </label>
+			<label for="fechanac" class="fecha">Fecha de nacimiento: </label><br>
+			<input type="text" name="localidad" id="localidad">
+			<select name="provincia" id="provincia">
+				<option value="0" selected>Huelva</option>
+				<option value="1">Sévilla</option>
+				<option value="2">Córdoba</option>
+				<option value="3">Jaén</option>
+				<option value="4">Almeria</option>
+				<option value="5">Granada</option>
+				<option value="6">Málaga</option>
+				<option value="7">Cádiz</option>
+			</select>
+			<input type="date" name="fechanac" id="fechanac" class="fecha"><br>
+			<label for="direccion" class="direccion">Dirección: </label>
+			<label for="codigopos">Código postal: </label><br>
+			<input type="text" name="direccion" id="direccion">
+			<input type="number" name="codigopos" id="codigopos">
+		</fieldset>
+		<fieldset class="amarillo">
+			<legend>Forma de Acceso</legend>
+			<input type="radio" name="directo" id="directo"><label for="directo">Directo: </label><br>
+			<div class="directocss">
+				<input type="radio" name="bac" id="bac"><label for="bac">Bachillerato Modalidad</label><input type="text" name="modalidad" id="modalidad"><br>
+				<input type="radio" name="experimental" id="experimental"><label for="experimental">Experimental</label><br>
+				<input type="radio" name="cou" id="cou"><label for="cou">COU Opcion</label><input type="text" name="opcion" id="opcion"><br>
+				<input type="radio" name="fp" id="fp"><label for="fp">FP</label><br>
+				<input type="radio" name="otros" id="otros"><label for="otros">Otros (especifique): </label><input type="text"><br>				
+			</div>
+			<input type="radio" name="pruebalibre" id="pruebalibre"><label for="pruebalibre">Prueba Libre</label>
+		</fieldset>
+		<fieldset class="rojo">
+			<legend>Datos Adjuntados</legend>
+			<input type="checkbox" name="fotodni" id="fotodni"><label for="fotodni">Fotocopia del DNI</label>
+			<input type="checkbox" name="certificado" id="certificado"><label for="certificado">Certificado Académico</label><br>
+			<input type="checkbox" name="otrosdoc" id="otrosdoc"><label for="otrosdoc">Otros (especifique):</label><input type="text">
+		</fieldset>
+		<br><input type="submit" value="Enviar Solicitud">
+	</form>
+<br><br><a href="index.html">Volver al Inicio</a>
+</body>
+</html>
